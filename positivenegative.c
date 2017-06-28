@@ -1,14 +1,15 @@
 #include<stdio.h>
 #include<conio.h>
-void main ()
+void main()
 {
-  int n;
-  clrscr();
-  printf("entre a value");
-  scanf("%d",&n);
-  if(n>1)
-    printf("%d",n);
-  else
-    printf("0");
-  getch();
+int n;
+printf("entre no");
+scanf("%d",&n) ;
+if(n>1)
+printf("postiveno");
+else if(n==0)
+printf("zero");
+else
+printf("negativeeno");
+getch ();
 }
