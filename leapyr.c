@@ -6,7 +6,7 @@ int a,;
 clrscr();
 printf("entre a year\n");
 scanf("%d",&a);
-if(a%4==0&&a%100!=0)||(a%400==0&&a%100==0)
+if((a%4==0&&a%100!=0)||(a%400==0&&a%100==0))
 
 printf("\n%d is a leap year",a);
       else
