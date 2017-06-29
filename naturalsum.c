@@ -6,7 +6,7 @@ int a,sum=0,i=0;
 clrscr();
 printf("entre the limit");
 scanf("%d",&a);
-ehile(i<=a)
+while(i<=a)
 {
   sum+=i;
   i++;
