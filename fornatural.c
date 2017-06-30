@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int a,sum=0,i=0;
+int a,sum=0,i;
 clrscr();
 printf("entre the limit");
 scanf("%d",&a);
-while(i<=a)
+for(i=0;i<=a;i++)
 {
   sum+=i;
-  i++;
+ 
 printf("\n%d",sum);
 
 getch();
