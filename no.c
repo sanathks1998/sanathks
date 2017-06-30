@@ -12,6 +12,6 @@ while(a!=0)
   i++;
   a=a/10;
 }
-printf("no of digbits %d\n",i);
+printf("no of digbits is %d\n",i);
 getch();
 }
