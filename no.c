@@ -7,7 +7,7 @@ float i=0;
 clrscr();
 printf("entre a number\n");
 scanf("%d",&a);
-while(a!=0)
+while(a%10!=0)
 {
   i++;
   a=a/10;
