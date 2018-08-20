@@ -5,10 +5,12 @@ public class ARMstrong
   public static void main(String args[])
   {
       Scanner sc=new Scanner(System.in);
-      float num=sc.nextInt();
-      float i,r,sum=0;;
-    if(num<=1000000)
-    {
+    System.out.println("entre  a number");
+      int num=sc.nextInt();
+      int i;
+      int r,sum=0;
+   
+    
       i=num;
       while(i%10!=0)
       {
@@ -21,4 +23,6 @@ public class ARMstrong
       
      else
       System.out.println("no");
-  } }}
+  
+      
+  }}
