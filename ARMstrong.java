@@ -1,22 +1,22 @@
-import java.io.*
+import java.io.*;
 import java.util.*;
-class ARMstrong
+public class ARMstrong
 {
   public static void main(String args[])
   {
-      Scanner sc=new Scanner(System.in;
+      Scanner sc=new Scanner(System.in);
       int num=sc.nextInt();
-      int i;
-      i=n;
+      int i,r,sum=0;;
+      i=num;
       while(i%10!=0)
       {
         r=i%10;
-        sum=sum+(i*i*i);
+        sum=sum+(r*r*r);
         i=i/10;
       }
       if(sum==num)
-      System.out.println("it is armstrong number");
+      System.out.println("yes");
       
      else
-      System.out.println("it is not armstrong number")
+      System.out.println("no")
         }}
