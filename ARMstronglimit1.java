@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class ARMstronglimit
+public class ARMstronglimit1
 {
   public static void main(String args[])
   {
