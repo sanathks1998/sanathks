@@ -10,21 +10,21 @@ public class ARMstronglimit
       System.out.println("entre  a second limit");
       int lst=sc.nextInt();
       int i;
-      int r,sum1,w=0;
+      int r,sum,w=0;
     for(i=num;i<lst;i++)
     {
          sum1=0;
         w=i;
-        while(w>0)
+        for(;w>0;w=w/10)
         {
             r=w%10;
-            sum1=sum1+r*r*r;
-            w=w/10;
+            sum=sum+r*r*r;
+            
         }
     
       
     
-        if(sum1==i)
+        if(sum==i)
         System.out.println(i);
         
        
