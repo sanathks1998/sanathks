@@ -1,28 +1,34 @@
 import java.io.*;
 import java.util.*;
-public class ARMstrong
+public class ARMstronglimit
 {
   public static void main(String args[])
   {
       Scanner sc=new Scanner(System.in);
-    System.out.println("entre  a number");
+    System.out.println("entre  a first limit");
       int num=sc.nextInt();
+      System.out.println("entre  a second limit");
+      int lst=sc.nextInt();
       int i;
-      int r,sum=0;
-   
+      int r,sum=0,w=0;
+    for(i=num;i<lst;i++)
+    {
+         sum=0;
+        w=i;
+        while(w>0)
+        {
+            r=w%10;
+            sum=sum+r*r*r;
+            w=w/10;
+        }
     
-      i=num;
-      while(i%10!=0)
-      {
-        r=i%10;
-        sum=sum+(r*r*r);
-        i=i/10;
-      }
-      if(sum==num)
-      System.out.println("yes");
       
-     else
-      System.out.println("no");
-  
+    
+        if(sum==i)
+        System.out.println(i);
+        
+       
+      }
+      
       
   }}
