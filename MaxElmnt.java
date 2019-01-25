@@ -4,14 +4,18 @@ public class MaxElmnt
 {
   public static void main(String args[])
   {
-    Scanner sc=new Scanner(System.in);
-   
+    Scanner 
+
+sc=new Scanner(System.in);
+   int max;
     System.out.println("entre limit");
     int n=sc.nextInt();
+int a[]=new int[n];    
     System.out.println("entre elemnets");
     for(int i=0;i<n;i++)
-    int a[]=sc.nextInt();
+     a[i]=sc.nextInt();
     max=a[0];
+    
     for(int i=0;i<n;i++)
     if(max<a[i])
     {
