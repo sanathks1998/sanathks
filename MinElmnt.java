@@ -4,9 +4,7 @@ public class MinElmnt
 {
   public static void main(String args[])
   {
-    Scanner 
-
-sc=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
    int min;
     System.out.println("entre limit");
     int n=sc.nextInt();
