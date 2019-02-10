@@ -1,5 +1,5 @@
 r=int(input())
-c=int(input()
+c=int(input())
 
 r=r^c
 c=r^c
