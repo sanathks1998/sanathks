@@ -1,4 +1,4 @@
-a,b=input().split()
+r,c=input().split()
 
-a,b=b,a
-print(int(a)," ",int(b))
+r,c=c,r
+print(int(c)," ",int(r))
