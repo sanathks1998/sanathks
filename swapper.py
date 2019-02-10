@@ -1,4 +1,4 @@
 a,b=input().split()
 
 a,b=b,a
-print(a," ",b)
+print(int(a)," ",int(b))
