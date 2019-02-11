@@ -1,6 +1,6 @@
 n,s=input().split()
 
-if(len(n)>=len(s)):
+if(n>=s):
     print(n)
 else:
     print(s)
