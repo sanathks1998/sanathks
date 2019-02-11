@@ -5,16 +5,16 @@ public class Main
   public static void main(String args[])
   {
     Scanner sc=new Scanner(System.in);
-   int maxr,smallr;
+   int maxr,smallr,i;
   
     int ay[]=new int[10];    
     int r=sc.nextInt();
-    for(int i=0;i<r;i++)
+    for( i=0;i<r;i++)
      ay[i]=sc.nextInt();
     maxr=ay[0];
     smallr=ay[0];
     
-    for(int i=0;i<n;i++)
+    for( i=0;i<n;i++)
     {
       if(maxr<ay[i])
       {
