@@ -1,6 +1,6 @@
-n=int(input())
-c=0
-while(n>0):
-    n=n//10
-    c=c+1
-print(c)
+ty=int(input())
+cr=0
+while(ty>0):
+    ty=ty//10
+    cr=cr+1
+print(cr)
