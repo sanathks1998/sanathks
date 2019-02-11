@@ -8,4 +8,4 @@ for i in range(n):
     f=l
     l=t
     t=f+l
-    print(t)
+    print(t," ")
