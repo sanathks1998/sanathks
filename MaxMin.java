@@ -14,11 +14,11 @@ public class Main
     maxr=ay[0];
     smallr=ay[0];
     
-    for( i=0;i<n;i++)
+    for( i=0;i<r;i++)
     {
       if(maxr<ay[i])
       {
-        maxi=ay[i];
+        maxr=ay[i];
       }
       if(smallr>ay[i])
       {
