@@ -1,9 +1,9 @@
-ni=int(input())
-re=[]
-while(ni!=0):
-        f=ni%10
-        re.append(f)
-        ni=ni//10
-for x in re[::-1]:
-        print(x," ")
+nir=int(input())
+rer=[]
+while(nir!=0):
+        fi=nir%10
+        rer.append(fi)
+        nir=nir//10
+for xi in rer[::-1]:
+        print(xi," ")
 
