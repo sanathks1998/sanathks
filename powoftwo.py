@@ -1,0 +1,11 @@
+ni=int(input())
+counti=0
+while(ni!=0):
+        r=ni%2
+        if(r==1):
+                counti+=1
+        ni=ni//2
+if(counti==1):
+        print("yes")
+else:
+        print("no")
