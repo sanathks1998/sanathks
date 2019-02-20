@@ -12,7 +12,7 @@ public class Main
    for(i=0;i<n;i++)
      a[i]=sc.nextInt();
    Arrays.sort(a);
-   for(i=0;i<n;i++)
+   for(i=n-1;i>=0;i--)
     System.out.print(a[i]);
    }
  }
