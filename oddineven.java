@@ -19,7 +19,7 @@ public class Main
     {if(a[i]%2==0)
     {
      if(i%2!=0)
-      {System.out.print(a[i]+"  ");
+      {System.out.print(a[i]+" ");
      }}else
       {  if(i%2==0)
        {  System.out.print(a[i]+" ");
