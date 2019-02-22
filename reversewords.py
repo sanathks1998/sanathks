@@ -2,4 +2,4 @@ r=[]
 s=input()
 r=s.split()
 for c in r:
-    print(c[::-1])
+    print(c[::-1]+" ")
