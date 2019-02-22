@@ -1,8 +1,4 @@
-r=int(input())
-s=int(input())
-l=[]
-for i in range(r):
-    w=int(input())
-    l.append(w)
+r,s=map(int,input().split())
+l=list(map(int,input().split()))
 l.sort(reverse=True)
 print(l[s-1])
