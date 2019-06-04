@@ -5,11 +5,13 @@ for x in l:
     if(x>s):
         l.remove(x)
 for i in range(0,len(l)):
+    j=0
     for x in l:
-        if(x+l[i]==s):
+        if(x+l[i]==s and i!=j):
+            print(x," ",l[i]," ",i," ",j)
             c=c+1
             break
-        
+        j=j+1   
             
 if (c>0):
     print("YES")
