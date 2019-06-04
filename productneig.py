@@ -3,7 +3,7 @@ l=list(map(int,input().split()))
 
 f=1
 i=1
-while(i<len(l)):
+while(i<len(l)+1):
   f=1
   j=1
   for x in l:
