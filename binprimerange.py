@@ -16,7 +16,7 @@ def primes(num):
 n,k=map(int,input().split())
 
 ctr=0
-for i in range(n,k):
+for i in range(n,k+1):
     t=str(bin(i))
     count=0
     for x in t:
