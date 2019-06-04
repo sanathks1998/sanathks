@@ -8,7 +8,7 @@ for i in range(0,len(l)):
     j=0
     for x in l:
         if(x+l[i]==s and i!=j):
-            print(x," ",l[i]," ",i," ",j)
+            
             c=c+1
             break
         j=j+1   
