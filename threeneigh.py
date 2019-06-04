@@ -11,6 +11,6 @@ q=sorted(dics.items(),key = lambda x : x[1])
 i=0
 for a,b in q:
      i=i+1
-     print (a)
+     print (a,end=" ")
      if (i==3):
          break
