@@ -6,7 +6,7 @@ while(r!=0):
     s=s+t
     r=r//10
 a=s
-print(a)
+
 if(s<9):
     print("YES")
 else:
