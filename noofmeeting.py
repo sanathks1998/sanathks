@@ -14,5 +14,5 @@ for i in range(r):
            
            ctrl=ctrl+1
     ct.append(ctrl)
-print(ct)
+
 print(max(ct)) 
