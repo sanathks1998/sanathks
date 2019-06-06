@@ -1,6 +1,5 @@
-
 l=input()
-t=[]
+t=[0]
 x='b'
 ctr=0
 if 'ab' not in l:
@@ -8,17 +7,13 @@ if 'ab' not in l:
 else:    
  for i in range(len(l)):
     ctr=1
-    for j in range(i,len(l)):
-        if 'a' in l[j]:
-            if j+1==len(l):
-                break
-            elif (x==l[j+1]):
+    for j in range(i,len(l)-1):
+        if 'a'==l[j] and x==l[j+1]:
                 ctr=ctr+1
-        elif 'b' in l[j]:
-             if j+1==len(l):
-                break
-             elif (x==l[j+1]):
+           
+        elif x==l[j] and  'a'==l[j+1]:
                 ctr=ctr+1
+            
         else:
             t.append(ctr)
             ctr=1
@@ -26,5 +21,6 @@ else:
     if l[i]=='a':
         t.append(ctr)
     else:
-        t.append(ctr)
+        t.append(ctr-1)
+      
  print(int(max(t)))
