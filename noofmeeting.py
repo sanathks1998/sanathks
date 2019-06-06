@@ -15,4 +15,4 @@ for i in range(r):
            ctrl=ctrl+1
     ct.append(ctrl)
 
-print(max(ct),end="") 
+print(int(max(ct)),end="") 
