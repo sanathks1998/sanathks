@@ -11,7 +11,7 @@ for i in range(n):
     if(w==[]):
         w.append(0)
     
-    if ((sum(q)/len(q))==(sum(w)/len(w))):
+    if ((sum(q)//len(q))==(sum(w)//len(w))):
             flag=1
             break
     else:
