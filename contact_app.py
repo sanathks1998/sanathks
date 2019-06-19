@@ -1,12 +1,34 @@
 d=dict()
 op='y' 
 def add():
-   
+    newd={}
     print(" enter name of contact")
     keys=input()
-    print(" add space to add another number")
-    val=int(input())
-    d[keys]=val
+    option=1
+    while(option==1):
+        print ("which fields to add 1.personal 2.work 3.email 4.desccription")
+        choose=int(input())
+        if(choose==1):
+             print("entre details")
+             num=int(input())
+             newd['personal']=num
+        elif(choose==2):
+             print("entre details")
+             num2=int(input())
+             newd['work']=num2
+        elif(choose==3):
+             print("entre details")
+             mails=input()
+             newd['email']=mails
+        if(choose==4):
+             print("entre details")
+             desc=input()
+             newd['describtion']=desc
+        print ("To add more press 1 else press 0")
+        option=int(input())
+    d[keys]=newd
+
+   
     print("contact added")
 def delete():
      if d!={}:
@@ -37,12 +59,19 @@ def update():
        else:
             print("no conatacts avialable")
 def search():
-        print("enter contact number")
+        print("enter contact name")
         searc_name=input()
-        if d[searc_name]:
-                        print(d[searc_name])
+        if searc_name in d:
+            for key,value in d.items():
+             print("name :",key)
+             for kid,vid in value.items():
+                  print(kid,":",vid)
         else:
-            print("no contact listed")
+            print("no contact listed here are some suugestion to search insted")
+            for key, value in d.items(): 
+               
+                if searc_name in key: 
+                   print (key)
 
 
                     
@@ -62,6 +91,9 @@ while(op=="y"):
         search()
     elif n==5:
       if d!={}:
-        print(d)
+        for key,value in d.items():
+             print("name :",key)
+             for kid,vid in value.items():
+                  print(kid,":",vid)
       else:
           print("no contacts avialable")
